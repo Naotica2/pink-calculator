@@ -31,7 +31,7 @@ A **cute & functional** calculator with **light/dark pink themes like my waifu a
 Try it out & enjoy calculating in style! 🚀  
 
 ---  
-**🔗 Live Demo:** [Link here if deployed]  
+**🔗 Live Demo:** https://naotica2.github.io/pink-calculator/
 **⭐ Like it?** Star this repo! ⭐  
 
 ---  
