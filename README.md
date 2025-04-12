@@ -10,7 +10,7 @@ A **cute & functional** calculator with **light/dark pink themes like my waifu a
 - **📱 Responsive design** (works on mobile & desktop)  
 - **❌ Error handling** (shows "Error" if math goes wrong)  
 
-## **How to Use** 🖱️  
+## **How to Use** 🚀  
 1. **Click numbers & operators** to build your equation.  
 2. **Press "="** to calculate.  
 3. **Check history** below (click any entry to see details).  
