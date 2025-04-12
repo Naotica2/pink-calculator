@@ -1,0 +1,144 @@
+:root {
+  --bg-color: #ffe4f0;
+  --text-color: #333;
+  --btn-bg: #ffcde3;
+  --btn-hover: #ffbad9;
+  --accent: #ff69b4;
+}
+
+.dark {
+  --bg-color: #2d002f;
+  --text-color: #ffe4f0;
+  --btn-bg: #442244;
+  --btn-hover: #663366;
+  --accent: #ff80c0;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background: var(--bg-color);
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.theme-toggle button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.display {
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid var(--accent);
+  background: transparent;
+  color: var(--text-color);
+  text-align: right;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.display::selection {
+  background: var(--accent);
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.buttons button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  border: none;
+  background: var(--btn-bg);
+  color: var(--text-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.buttons button:hover {
+  background: var(--btn-hover);
+}
+
+.equal {
+  grid-column: span 4;
+  background: var(--accent) !important;
+  color: white !important;
+}
+
+@media (max-width: 480px) {
+  .display {
+    font-size: 1.5rem;
+  }
+
+  .buttons button {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+}
+.history-box {
+  margin-top: 1rem;
+  max-height: 180px;
+  overflow-y: auto;
+  font-size: 0.95rem;
+  background: var(--btn-bg);
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+}
+
+.history-box p {
+  margin: 0.3rem 0;
+  color: var(--text-color);
+  word-break: break-word;
+}
+.history-detail {
+  margin-top: 0.5rem;
+  background: var(--accent);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.history-detail .close-detail {
+  margin-top: 0.5rem;
+  background-color: #ff8eb7;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.history-detail .close-detail:hover {
+  background-color: #ff6da0;
+}
