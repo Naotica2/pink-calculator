@@ -32,6 +32,7 @@ Try it out & enjoy calculating in style! 🚀
 
 ---  
 **🔗 Live Demo:** https://naotica2.github.io/pink-calculator/
+
 **⭐ Like it?** Star this repo! ⭐  
 
 ---  
