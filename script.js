@@ -69,7 +69,7 @@ function showHistoryDetail(index) {
   detail.innerHTML = `
     <p><strong>Question:</strong> ${expression}</p>
     <p><strong>Result:</strong> ${result}</p>
-    <button onclick="closeHistoryDetail()" class="close-detail">Tutup</button>
+    <button onclick="closeHistoryDetail()" class="close-detail">Close</button>
   `;
   document.getElementById("history").appendChild(detail);
 }
